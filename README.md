@@ -57,27 +57,30 @@ The platform demonstrates:
 ---
 
 ## 🧠 Architecture Overview
+
+## 🧩 Frontend Directory Structure
+
+```plaintext
 frontend/
-│
 ├── src/
-│ ├── pages/ # Each page = a route
-│ │ ├── dashboard/
-│ │ ├── game/
-│ │ ├── login/
-│ │ ├── register/
-│ │ ├── PlayGame/
-│ │ └── SessionResults/
-│ ├── components/ # Reusable UI blocks
-│ ├── utils/ # API & helper functions
-│ ├── test/ # Vitest component tests
-│ ├── App.jsx # Main entry with hash routing
-│ └── main.jsx # ReactDOM render root
+│   ├── pages/                  # Each page = a route
+│   │   ├── dashboard/
+│   │   ├── game/
+│   │   ├── login/
+│   │   ├── register/
+│   │   ├── PlayGame/
+│   │   └── SessionResults/
+│   ├── components/             # Reusable UI blocks
+│   ├── utils/                  # API & helper functions
+│   ├── test/                   # Vitest component tests
+│   ├── App.jsx                 # Main entry with hash routing
+│   └── main.jsx                # ReactDOM render root
 │
-├── cypress/ # UI & component tests
-│ ├── e2e/
-│ └── component/
-│
-└── public/
+├── cypress/                    # UI & component tests
+├── e2e/                        # End-to-end tests
+├── component/                  # Component-level tests (optional)
+└── public/                     # Static assets
+```
 
 ## ⚙️ Tech Stack
 
