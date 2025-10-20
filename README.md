@@ -8,7 +8,7 @@ A fully functional React.js single page application for real-time multiplayer qu
 
 ## 🌍 Overview
 
-**Quizora** is a React-based single-page quiz platform developed as part of the UNSW COMP6080 course.  
+**Quizora** is a React-based single-page quiz platform.  
 It allows **admins** to create, edit, and manage quiz games, and **players** to join and play them in real-time via session codes — all without refreshing the page.
 
 The platform demonstrates:
