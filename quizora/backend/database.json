@@ -1,0 +1,11 @@
+{
+  "admins": {
+    "11@1.com": {
+      "name": "1",
+      "password": "1",
+      "sessionActive": true
+    }
+  },
+  "games": {},
+  "sessions": {}
+}

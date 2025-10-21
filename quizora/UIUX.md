@@ -1,0 +1,1 @@
+ - confirm logic of delete function.

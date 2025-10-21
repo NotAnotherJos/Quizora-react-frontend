@@ -1,0 +1,20 @@
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFA500" />
+      <stop offset="100%" stop-color="#FF4500" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="20" y="65"
+        font-size="60"
+        font-family="cursive"
+        fill="url(#orangeGradient)"
+        filter="url(#shadow)">
+    Quizora
+  </text>
+</svg>

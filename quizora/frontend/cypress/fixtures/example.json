@@ -1,0 +1,6 @@
+{
+    "name": "Fixtures",
+    "email": "hello123@cypress.io",
+    "body": "Fixtures help you fake route data easily during testing."
+  }
+  
